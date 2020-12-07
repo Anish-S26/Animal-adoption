@@ -115,16 +115,6 @@
 			</select>
 		</div>
 
-		<!-- dog name 
-
-		<div id="pet-type">
-			<label class="main-label" for="pet-type">Select the type of pet you wish to adopt: </label>
-			<select name="pet">
-				<option value="pet">Pet-Type</option>
-				<option value="1">Dog</option>
-				<option value="2">Cat</option>
-		</div> -->
-
 
 		<!-- name -->
 
@@ -152,14 +142,14 @@
 
 		<div id="address">
 			<label class="main-label" for="address1">Address: </label>
-			<input type="text" id="address1" size="30" placeholder="Enter your address here">
+			<input type="text" id="address1" size="30" placeholder="Enter your address here" required>
 
 
 			<label class="main-label" for="town">Town: </label>
-			<input type="text" id="town" size="15" placeholder="Your town">
+			<input type="text" id="town" size="15" placeholder="Your town" required>
 
 			<label class="main-label" for="postcode">Postcode: </label>
-			<input type="text" id="postcode" size="10" placeholder="Postcode">
+			<input type="text" id="postcode" size="10" placeholder="Postcode" required>
 
 		</div>
 
@@ -167,7 +157,7 @@
 
 		<div id="email-phone">
 			<label class="main-label" id="phone-label" for="phone">Phone Number: </label>
-			<input type="tel" id="phone" placeholder="e.g. +91 8800 234 172">
+			<input type="tel" id="phone" placeholder="e.g. +91 8800 234 172" required>
 
 			<label class="main-label" id="email-label" for="email">Email ID: </label>
 			<input type="email" id="email" placeholder="e.g. emailid@gmail.com" required size="35">
@@ -218,7 +208,7 @@
 		<div id="pets-household">
 			<ul><label class="main-label" id="number-label">How many pets are already in your household?
 			</label></ul>
-			<li><input type="number" id="number" min="0" max="20" placeholder="0"></li>
+			<li><input type="number" id="number" min="0" max="20" placeholder="0" required></li>
 		</div>
 
 		<!-- housing -->
@@ -243,14 +233,14 @@
 			</select>
 		</div>
 
-		<!-- comments -->
+		
 
 		<div id="prepare">
 			<label class="main-label">How do you plan on preparing yourself and those around you? (in detail)</label>
 		</div>
 		<div id="textarea">
     	<textarea id="comments"
-			  rows="10" cols="70" placeholder=" Write here how did you prepare yourself for adoption."></textarea>
+			  rows="10" cols="70" placeholder=" Write here how did you prepare yourself for adoption." required></textarea>
 		</div>
 
 		<!-- submit and reset button -->

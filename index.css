@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 
-/* font-family: 'Big Shoulders Text', cursive; */
+
 div.a {
   text-align: center;
 }
@@ -22,10 +22,10 @@ div.a {
 }
 
 .nav-flex-row li a {
-    font-family: 'Big Shoulders Text', cursive;
-    color: white;
-  text-shadow: 2px 2px 4px #000000;
-    font-size: 1.5em;
+    font-family: 'Arial', cursive;  //main top link properties
+    color: #ffffff;
+  text-shadow: 2px 2px 4px #ff66b3;
+    font-size: 2.5em;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -36,7 +36,6 @@ div.a {
     //background-size: cover;
     //background-position: center;
     display: flex;
-    font-family: 'Big Shoulders Text', cursive;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -76,10 +75,12 @@ div.a {
     background-image: url(img/help.jpg);
     background-size: cover;
     background-position: center;
+    
     //display: flex;
     //flex-direction: column;
     //justify-content: center;
     //align-items: center;
+   
 }
 .hero-faq {
     height: 820px;
@@ -101,8 +102,8 @@ div.a {
 }
 
 .section-intro header {
-   color: white;
-  text-shadow: 2px 2px 4px #000000;
+    color: #00ffff;
+    text-shadow: 2px 2px 4px #ff66b3;
     display: flex;
     flex: 4;
     flex-direction: row;
@@ -114,9 +115,11 @@ div.a {
     flex: 1;
 }
 
-.about-section {
+.about-section {  
     display: flex;
     align-items: center;
+    color: #ff3300; //colour of faq ques and aid ques
+    text-shadow: 2px 2px 4px #ff66b3;
    background-color: #000000;
     padding: 50px 30px;
 }
@@ -189,6 +192,23 @@ a.link-to-book:hover {
     display: block;
 }
 
+/*.zoom {
+  padding: 100px;
+  align:right;
+  background-color:white;
+  transition: transform .1s; /* Animation */
+  width: 1000px;
+  height: 350px;
+  margin: 0 auto;
+  
+}
+
+.zoom:hover {
+  
+ transform: scale(1.5);
+}
+*/
+
 @media (min-width:577px) and (max-width: 800px) {
 
     .section-intro {
@@ -221,6 +241,12 @@ a.link-to-book:hover {
 
     .section-intro h1 {
         font-size: 2em;
+         
+    color: #00ffff;
+    text-shadow: 2px 2px 4px #ff66b3;
+    
+    text-transform: uppercase;
+    font-weight: 300;
     }
 
     .about-section p,
