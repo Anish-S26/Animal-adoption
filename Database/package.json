@@ -1,0 +1,14 @@
+{
+  "name": "scratchproject",
+  "version": "1.0.0",
+  "description": "MERN demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Abhishek Nazare",
+  "license": "ISC"
+}
